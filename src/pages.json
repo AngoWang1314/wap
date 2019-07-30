@@ -1,0 +1,63 @@
+{
+	"pages": [
+		{
+			"path": "pages/tabBar/topic/topic"
+		},
+        {
+			"path": "pages/tabBar/cart/cart"
+		},
+		{
+			"path": "pages/tabBar/cate/cate"
+		},
+		{
+			"path": "pages/tabBar/ucenter/ucenter"
+		},
+		{
+			"path": "pages/search/search"
+		},
+		{
+			"path": "pages/paperDetail/paperDetail",
+			"style": {
+				"navigationStyle": "default"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "dtwap",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#b4282d",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/tabBar/topic/topic",
+				"iconPath": "static/topic.png",
+				"selectedIconPath": "static/topic_hl.png",
+				"text": "习题"
+			},
+			{
+				"pagePath": "pages/tabBar/cate/cate",
+				"iconPath": "static/cate.png",
+				"selectedIconPath": "static/cate_hl.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/tabBar/cart/cart",
+				"iconPath": "static/cate.png",
+				"selectedIconPath": "static/cate_hl.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/tabBar/ucenter/ucenter",
+				"iconPath": "static/ucenter.png",
+				"selectedIconPath": "static/ucenter_hl.png",
+				"text": "我的"
+			}
+		]
+	}
+}
